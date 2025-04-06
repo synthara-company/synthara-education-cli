@@ -22,6 +22,29 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
+## **Latest Release**
+
+**Bridging the Quality Gap**  
+Hold up your hand with your thumb and index finger about one inch apart. That small gap often marks the difference between a good experience and a truly exceptional one. In our latest release of @synthara-company, we’ve focused on bridging that gap by refining the interface, enhancing article formatting, and optimizing performance to deliver faster, more reliable responses.
+
+Every update is driven by the question, "Can this be even better?" With improvements inspired by your feedback and our dedication to quality, this release ensures that every interaction with Synthara is more polished and intuitive than ever before.
+
+For full details on the changes, please visit our [changelog page](https://github.com/bniladridas/gemini_cli/commits/v1.0.0).
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img width="548" alt="Latest Release Screenshot 1" src="https://github.com/user-attachments/assets/2646967c-4039-4461-a680-809348db26ac" /></td>
+      <td align="center"><img width="508" alt="Latest Release Screenshot 2" src="https://github.com/user-attachments/assets/56a9697e-310a-41a4-b911-b583ea105a61" /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img width="1440" alt="Latest Release Screenshot 3" src="https://github.com/user-attachments/assets/26973d79-9688-49f3-9ced-5a2beca22886" /></td>
+    </tr>
+  </table>
+</div>
+
+![](https://i.imgur.com/waxVImv.png)
+
 ## 🧠 Overview
 
 Synthara is a sophisticated newspaper-style AI CLI powered by Google's Gemini models. It transforms your queries into elegantly formatted articles directly in your terminal. The responses are presented with professional formatting, including headers, sections, and proper markdown styling.
