@@ -87,7 +87,7 @@ This will:
 After installation, start the application with:
 
 ```bash
-cd ~/synthara-cli && ./gemini-chat
+cd ~/synthara-education-cli && ./synthara-education
 ```
 
 ### Manual Installation
@@ -108,6 +108,11 @@ pip install google-generativeai rich
 
 # Run the application
 python simple_gemini_cli/gemini_chat.py
+
+# Or create a launcher script for easier access
+echo '#!/bin/bash\nsource venv/bin/activate\npython simple_gemini_cli/gemini_chat.py' > synthara-education
+chmod +x synthara-education
+./synthara-education
 ```
 
 ### API Key
