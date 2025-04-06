@@ -3,9 +3,8 @@ message: "If you use this software, please cite it as below."
 title: "Synthara Education Times CLI"
 abstract: "An AI-powered command-line tool that generates beautifully formatted, article-style answers using Google's Gemini Model."
 authors:
-  - family-names: "Das"
-    given-names: "Niladri"
-    orcid: "https://orcid.org/0009-0002-6619-5691"  
+  - name: "Synthara Company"
+    website: "https://synthara.company"
 version: 1.0.0
 date-released: 2025-04-07
 license: MIT
