@@ -1,23 +1,49 @@
 from setuptools import setup, find_packages
+import os
+
+# Read the contents of README.md
+with open("README.md", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
-    name="edu_cli",
-    version="0.1.0",
+    name="synthara-education-cli",
+    version="1.0.0",
     packages=find_packages(),
     install_requires=[
         "google-generativeai>=0.3.0",
         "rich>=10.0.0",
-        "prompt-toolkit>=3.0.0",
-        "pyfiglet>=0.8.post1",
     ],
     entry_points={
         "console_scripts": [
-            "edu-cli=edu_cli.main:main",
+            "synthara-education=simple_gemini_cli.gemini_chat:main",
         ],
     },
-    author="Department of Education",
-    author_email="example@education.gov",
-    description="A CLI system for students to interact with AI tutors",
-    keywords="education, cli, ai, tutor",
+    author="Niladri Das",
+    author_email="bniladridas@gmail.com",
+    description="An AI-powered command-line tool that generates beautifully formatted, article-style answers using Google's Gemini Model",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    keywords="education, cli, ai, gemini, article, markdown, newspaper",
     python_requires=">=3.7",
+    url="https://github.com/synthara-company/synthara-education-cli",
+    project_urls={
+        "Bug Tracker": "https://github.com/synthara-company/synthara-education-cli/issues",
+        "Documentation": "https://github.com/synthara-company/synthara-education-cli#readme",
+        "Source Code": "https://github.com/synthara-company/synthara-education-cli",
+    },
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Education",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Topic :: Education",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Text Processing :: Markup :: Markdown",
+    ],
 )
