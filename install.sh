@@ -51,6 +51,6 @@ echo "✅ Installation complete!"
 echo "✅ To run Synthara Education CLI, use the following command:"
 echo "   cd $INSTALL_DIR && ./gemini-chat"
 echo ""
-
-# Run the application directly
-./gemini-chat
+echo "⭐ The application is now installed and ready to use!"
+echo "⭐ Run the command above to start using Synthara Education CLI."
+echo ""
