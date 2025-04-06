@@ -10,7 +10,7 @@ cd "$INSTALL_DIR"
 
 # Download necessary files
 echo "Downloading files..."
-curl -s -O https://raw.githubusercontent.com/bniladridas/gemini_cli/main/simple_gemini_cli/gemini_chat.py
+curl -s -O https://raw.githubusercontent.com/synthara-company/synthara-education-cli/main/simple_gemini_cli/gemini_chat.py
 mkdir -p simple_gemini_cli
 mv gemini_chat.py simple_gemini_cli/
 
@@ -51,6 +51,6 @@ echo "✅ Installation complete!"
 echo "✅ To run Synthara Education CLI, use the following command:"
 echo "   cd $INSTALL_DIR && ./gemini-chat"
 echo ""
-
-# Run the application directly
-./gemini-chat
+echo "⭐ The application is now installed and ready to use!"
+echo "⭐ Run the command above to start using Synthara Education CLI."
+echo ""

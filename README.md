@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://github.com/bniladridas/gemini_cli"><img src="https://avatars.githubusercontent.com/u/203538727?s=200&v=4" height="128"></a>
-  <h2 align="center"><a href="https://github.com/bniladridas/gemini_cli">Synthara | The Education Times CLI</a></h2>
+  <a href="https://github.com/synthara-company/synthara-education-cli"><img src="https://avatars.githubusercontent.com/u/203538727?s=200&v=4" height="128"></a>
+  <h2 align="center"><a href="https://github.com/synthara-company/synthara-education-cli">Synthara | The Education Times CLI</a></h2>
   <p align="center">An AI-powered command-line tool that generates beautifully formatted, article-style answers using Google's Gemini Model.<p>
   <p align="center">
     <a href="https://aistudio.google.com/app/apikey">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Gemini%20API-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Gemini API" />
     </a>
-    <a href="https://github.com/bniladridas/gemini_cli">
+    <a href="https://github.com/synthara-company/synthara-education-cli">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Open%20Source-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Open Source" />
     </a>
     <a href="https://github.com/bniladridas">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Created%20by%20Niladri-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Niladri Das" />
     </a>
-    <a href="https://bniladridas.github.io/gemini_cli/">
+    <a href="https://synthara-company.github.io/synthara-education-cli/">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Website-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Website" />
     </a>
   </p>
@@ -24,12 +24,12 @@
 
 ## **Latest Release**
 
-**Bridging the Quality Gap**  
+**Bridging the Quality Gap**
 Hold up your hand with your thumb and index finger about one inch apart. That small gap often marks the difference between a good experience and a truly exceptional one. In our latest release of @synthara-company, we’ve focused on bridging that gap by refining the interface, enhancing article formatting, and optimizing performance to deliver faster, more reliable responses.
 
 Every update is driven by the question, "Can this be even better?" With improvements inspired by your feedback and our dedication to quality, this release ensures that every interaction with Synthara is more polished and intuitive than ever before.
 
-For full details on the changes, please visit our [changelog page](https://github.com/bniladridas/gemini_cli/commits/v1.0.0).
+For full details on the changes, please visit our [changelog page](https://github.com/synthara-company/synthara-education-cli/commits/v1.0.0).
 
 <div align="center">
   <table>
@@ -75,7 +75,7 @@ Synthara is a sophisticated newspaper-style AI CLI powered by Google's Gemini mo
 Install everything with a single command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/bniladridas/gemini_cli/main/setup-cli.sh | bash
+curl -s https://raw.githubusercontent.com/synthara-company/synthara-education-cli/main/setup.sh | bash
 ```
 
 This will:
@@ -96,8 +96,8 @@ If you prefer more control over the installation process:
 
 ```bash
 # Clone the repository
-git clone https://github.com/bniladridas/gemini_cli.git
-cd gemini_cli
+git clone https://github.com/synthara-company/synthara-education-cli.git
+cd synthara-education-cli
 
 # Create a virtual environment (recommended)
 python3 -m venv venv
@@ -188,8 +188,8 @@ Check out [contributing guidelines](./CONTRIBUTING.md) (coming soon).
 
 Made with 💡 and 🚀 by [Niladri Das](https://github.com/bniladridas)
 
-<a href="https://github.com/bniladridas/gemini_cli/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=bniladridas/gemini_cli" />
+<a href="https://github.com/synthara-company/synthara-education-cli/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=synthara-company/synthara-education-cli" />
 </a>
 
 ---
@@ -204,9 +204,9 @@ MIT — See [license file](./LICENSE) for more information.
 
 If you liked the project, please consider sharing it! It helps a ton 💙
 
-[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/bniladridas/gemini_cli&title=AI%20Newspaper-Style%20CLI)
-[![Share on Hacker News](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/bniladridas/gemini_cli)
-[![Share on Twitter](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/bniladridas/gemini_cli)
-[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/bniladridas/gemini_cli)
+[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https://github.com/synthara-company/synthara-education-cli&title=AI%20Newspaper-Style%20CLI)
+[![Share on Hacker News](https://img.shields.io/badge/share%20on-hacker%20news-orange?logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/synthara-company/synthara-education-cli)
+[![Share on Twitter](https://img.shields.io/badge/share%20on-twitter-03A9F4?logo=twitter)](https://twitter.com/share?url=https://github.com/synthara-company/synthara-education-cli)
+[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/synthara-company/synthara-education-cli)
 
 ![](https://i.imgur.com/waxVImv.png)
