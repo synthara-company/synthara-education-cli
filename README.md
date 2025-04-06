@@ -12,6 +12,9 @@
     <a href="https://github.com/bniladridas">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Created%20by%20Niladri-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Niladri Das" />
     </a>
+    <a href="https://bniladridas.github.io/gemini_cli/">
+    	<img src="https://img.shields.io/badge/%E2%9C%A8-Website-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="Website" />
+    </a>
   </p>
 </p>
 
