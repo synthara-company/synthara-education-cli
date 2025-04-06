@@ -1,5 +1,9 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Update copyright year to always show 2025
+    document.querySelectorAll('.copyright-year').forEach(element => {
+        element.textContent = '2025';
+    });
     // Back to top button functionality
     const backToTopButton = document.createElement('a');
     backToTopButton.href = '#';
@@ -40,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Toggle dark mode
     darkModeToggle.addEventListener('click', function() {
         document.body.classList.toggle('dark-mode');
-        
+
         if (document.body.classList.contains('dark-mode')) {
             localStorage.setItem('darkMode', 'enabled');
             darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
@@ -67,13 +71,13 @@ document.addEventListener('DOMContentLoaded', function() {
         copyButton.className = 'btn btn-sm btn-outline-light position-absolute top-0 end-0 m-2';
         copyButton.innerHTML = '<i class="fas fa-copy"></i>';
         copyButton.title = 'Copy to clipboard';
-        
+
         // Set relative position on code block container
         block.style.position = 'relative';
-        
+
         // Add button to code block
         block.appendChild(copyButton);
-        
+
         // Add click event
         copyButton.addEventListener('click', () => {
             const textToCopy = block.textContent.trim();
