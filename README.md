@@ -15,7 +15,7 @@ An AI-powered command-line interface that generates article-style responses usin
 Install and run with a single command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/bniladridas/gemini_cli/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/bniladridas/gemini_cli/main/install.sh | bash
 ```
 
 ### Manual Installation
