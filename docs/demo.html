@@ -274,7 +274,7 @@
                     <div class="social-links mt-3">
                         <a href="https://github.com/synthara-company/synthara-education-cli" class="me-2"><i class="fab fa-github"></i></a>
                         <a href="https://twitter.com/syntharacompany" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="https://linkedin.com/company/synthara" class="me-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/company/synthara-company/" class="me-2"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
@@ -329,7 +329,7 @@
             const terminalInput = document.querySelector('.terminal-input');
             const terminalResponseArea = document.querySelector('.terminal-response-area');
             const exampleQueries = document.querySelectorAll('.example-query');
-            
+
             // Sample responses for the demo
             const sampleResponses = {
                 "What are the ethical implications of AI?": `<div class="terminal-response">
@@ -343,7 +343,7 @@
                         <li><strong>Accountability and Transparency:</strong> The "black box" nature of many AI systems makes assigning responsibility for harmful outcomes challenging and limits our ability to understand how decisions are made.</li>
                     </ul>
                 </div>`,
-                
+
                 "Explain quantum computing in simple terms": `<div class="terminal-response">
                     <h3>Quantum Computing: When Particles Perform Calculations</h3>
                     <p>Imagine if your computer could try all possible solutions to a problem at once instead of checking them one by one. That's the fundamental promise of quantum computing—a revolutionary approach to computation that harnesses the strange properties of quantum physics.</p>
@@ -351,7 +351,7 @@
                     <p>Traditional computers use bits—binary digits that can be either 0 or 1. Quantum computers, however, use quantum bits or "qubits." Thanks to a quantum property called superposition, qubits can exist in multiple states simultaneously, representing both 0 and 1 at the same time.</p>
                     <p>This means that while a traditional computer with 3 bits can represent only one of 8 possible values at any given time (2³ = 8), a quantum computer with 3 qubits can represent all 8 values simultaneously. This parallel processing capability grows exponentially with each additional qubit.</p>
                 </div>`,
-                
+
                 "What are the top 5 advancements in renewable energy?": `<div class="terminal-response">
                     <h3>Powering Tomorrow: 5 Breakthrough Advancements in Renewable Energy</h3>
                     <p>The renewable energy landscape is evolving rapidly, with innovations that promise to accelerate our transition away from fossil fuels. Here are five transformative advancements reshaping how we harness clean energy.</p>
@@ -361,36 +361,36 @@
                     <p>While fixed-foundation offshore wind turbines are limited to shallow waters, floating platforms now allow wind farms to be installed in deeper waters, accessing stronger and more consistent wind resources. Countries like Norway, Japan, and Portugal are pioneering this technology, which dramatically expands the potential for offshore wind energy.</p>
                 </div>`
             };
-            
+
             // Default response for queries not in the sample responses
             const defaultResponse = `<div class="terminal-response">
                 <h3>Exploring New Horizons: Understanding Your Query</h3>
                 <p>This is a simulated demo of Synthara Education Times CLI. For real responses to your specific query, please install the full version on your machine.</p>
                 <p>Synthara transforms AI responses into professionally structured articles with proper formatting, making complex information easier to read and understand.</p>
             </div>`;
-            
+
             // Function to display response
             function displayResponse(query) {
                 // Clear previous responses
                 terminalResponseArea.innerHTML = '';
-                
+
                 // Show typing indicator
                 terminalResponseArea.innerHTML = '<div class="typing-indicator"><span></span><span></span><span></span></div>';
-                
+
                 // Simulate processing time
                 setTimeout(() => {
                     // Remove typing indicator
                     terminalResponseArea.innerHTML = '';
-                    
+
                     // Display response
                     const response = sampleResponses[query] || defaultResponse;
                     terminalResponseArea.innerHTML = response;
-                    
+
                     // Scroll to response
                     terminalResponseArea.scrollIntoView({ behavior: 'smooth' });
                 }, 1500);
             }
-            
+
             // Handle input submission
             terminalInput.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter' && this.value.trim() !== '') {
@@ -399,7 +399,7 @@
                     this.value = '';
                 }
             });
-            
+
             // Handle example query clicks
             exampleQueries.forEach(button => {
                 button.addEventListener('click', function() {
