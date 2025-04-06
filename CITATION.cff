@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Synthara Education Times CLI"
+abstract: "An AI-powered command-line tool that generates beautifully formatted, article-style answers using Google's Gemini Model."
+authors:
+  - family-names: "Das"
+    given-names: "Niladri"
+    orcid: "https://orcid.org/0009-0002-6619-5691"  
+version: 1.0.0
+date-released: 2025-04-07
+license: MIT
+repository-code: "https://github.com/synthara-company/synthara-education-cli"
+keywords:
+  - "artificial intelligence"
+  - "natural language processing"
+  - "command-line interface"
+  - "education"
+  - "gemini"
+  - "article generation"
+  - "markdown"
+references:
+  - type: software
+    title: "Google Generative AI"
+    url: "https://ai.google.dev/"
+    notes: "Gemini API used for generating responses"
+  - type: software
+    title: "Rich"
+    url: "https://github.com/Textualize/rich"
+    notes: "Used for terminal formatting and styling"
