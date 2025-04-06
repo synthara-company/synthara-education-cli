@@ -1,0 +1,23 @@
+This directory will contain the following images:
+
+1. synthara-logo.png - The Synthara company logo
+2. favicon.png - Favicon for the website
+3. synthara-og-image.png - Open Graph image for social media sharing
+4. feature-article-formatting.png - Screenshot showing article formatting feature
+5. feature-multiple-models.png - Screenshot showing multiple models feature
+6. feature-terminal-native.png - Screenshot showing terminal native feature
+7. feature-api-key.png - Screenshot showing API key management
+8. screenshot-1.png - General screenshot of the application
+9. screenshot-2.png - General screenshot of the application
+10. screenshot-3.png - General screenshot of the application
+11. screenshot-4.png - General screenshot of the application
+12. testimonial-1.jpg - Photo of a testimonial user
+13. testimonial-2.jpg - Photo of a testimonial user
+14. testimonial-3.jpg - Photo of a testimonial user
+15. about-story.jpg - Image for the "Our Story" section
+16. about-mission.jpg - Image for the "Our Mission" section
+17. team-niladri.jpg - Photo of team member Niladri Das
+18. team-alex.jpg - Photo of team member Alex Chen
+19. team-sarah.jpg - Photo of team member Sarah Johnson
+
+Note: For a production website, you would need to create or source these images. For now, this is a placeholder to indicate what images would be needed for the complete website.
